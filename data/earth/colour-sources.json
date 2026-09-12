@@ -1,0 +1,34 @@
+{
+  "description": "Unmodified scientific source rasters. Geographic longitude west to east, latitude north to south. No political labels or borders.",
+  "landColour": {
+    "file": "blue-marble-2004-07.jpg",
+    "dataset": "NASA Blue Marble Next Generation, unshaded base map",
+    "credit": "NASA Earth Observatory",
+    "compositeMonth": "2004-07",
+    "width": 5400,
+    "height": 2700,
+    "pixelIntervalArcMinutes": 4,
+    "colourSpace": "sRGB",
+    "sourcePage": "https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-map/",
+    "download": "https://assets.science.nasa.gov/content/dam/science/esd/eo/images/bmng/bmng-base/july/world.200407.3x5400x2700.jpg",
+    "sha256": "f55226d46d27e05511f2118dc6aa24f5dbf9b6b2cddc87cc6e0e7dd067c00b11",
+    "limitations": "Processed historical monthly composite with seasonal vegetation and snow. Not live imagery or unprocessed reflectance. Artificial lighting in the globe is illustrative."
+  },
+  "landMask": {
+    "file": "land-mask.png",
+    "dataset": "Land Mask (black)",
+    "credit": "NOAA Science On a Sphere",
+    "width": 4096,
+    "height": 2048,
+    "channel": "alpha: opaque land, transparent water",
+    "sourcePage": "https://sos.noaa.gov/catalog/datasets/land-mask-black/",
+    "download": "https://sos.noaa.gov/ftp_mirror/overlays/land_mask/black/4096.png",
+    "sha256": "ed613b3a5a90ee60a97a77ec7d3a106c655c6be780ffc404125666c7aa151481",
+    "limitations": "Generalized coastlines at a different resolution/date from NASA colours and GEBCO terrain; not a contemporary shoreline survey."
+  },
+  "colourComparisonReferences": [
+    "https://science.nasa.gov/earth/earth-observatory/the-saharas-diverse-landscape-1940/",
+    "https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2019-12-09",
+    "https://science.nasa.gov/earth/earth-observatory/a-hawks-eye-view-of-australias-red-center-148663/"
+  ]
+}
